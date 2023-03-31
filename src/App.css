@@ -1,0 +1,62 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+
+.single-card .button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+@media print {
+  @page {
+      size: auto!important
+  }
+
+  * {
+      box-shadow: none!important;
+      font-size: 0!important;
+      text-shadow: none!important
+  }
+
+  .do-not-print {
+      display: none!important
+  }
+
+  img {
+    all: unset;
+  }
+
+  .cards {
+      margin: 0!important;
+      max-width: 100%!important;
+      min-width: 300px!important;
+      padding: 0!important
+  }
+
+  .cards {
+      display: flex!important;
+      margin: 0!important;
+      padding-left: 15px!important;
+      padding-top: 15px!important;
+      text-align: left!important
+  }
+
+  .cards .card-image,.cards .single-card {
+      background-color: transparent!important;
+      border: 0!important;
+      height: 3.4375in!important;
+      margin: 0!important;
+      padding: 0!important;
+      width: 2.4375in!important
+  }
+
+  .cards .single-card img {
+      height: 3.5in!important;
+      margin: 0!important;
+      padding: 0!important;
+      page-break-inside: avoid!important;
+      width: 2.5in!important
+  }
+}
+
