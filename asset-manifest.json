@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/fab-proxy-printer/static/css/main.7b3c36a1.css",
+    "main.js": "/fab-proxy-printer/static/js/main.aee20567.js",
+    "static/media/fab-logo.png": "/fab-proxy-printer/static/media/fab-logo.8198a26614a7f737d19c.png",
+    "index.html": "/fab-proxy-printer/index.html",
+    "main.7b3c36a1.css.map": "/fab-proxy-printer/static/css/main.7b3c36a1.css.map",
+    "main.aee20567.js.map": "/fab-proxy-printer/static/js/main.aee20567.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b3c36a1.css",
+    "static/js/main.aee20567.js"
+  ]
+}
