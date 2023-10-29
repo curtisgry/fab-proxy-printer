@@ -43,7 +43,7 @@ function App() {
     setCardList(newList);
   };
 
-  const generateCardImage = (card) => card.defaultImage?.split('.')[0];
+  const generateCardImage = (card) => card.printings[0].image_url;
 
   const print = () => {
     window.print();

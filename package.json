@@ -4,6 +4,7 @@
   "homepage": "https://curtisgry.github.io/fab-proxy-printer",
   "private": true,
   "dependencies": {
+    "@flesh-and-blood/cards": "^0.0.104",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",

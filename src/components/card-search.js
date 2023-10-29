@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import { cards } from 'fab-cards';
+import cards from '../data/card.json';
 import Card from './card';
 
 const Cards = ({ addToList, generateCardImage }) => {
@@ -27,7 +27,7 @@ const Cards = ({ addToList, generateCardImage }) => {
 
   return (
     <div>
-      <form className="mb-4 columns" onSubmit={onSubmit}>
+      <form className="mb-4 columns do-not-print" onSubmit={onSubmit}>
         <div className="field is-grouped column is-7 mt-5">
           <div className="control is-expanded">
             <input

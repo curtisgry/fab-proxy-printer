@@ -1,5 +1,8 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
 
+* {
+    box-sizing: border-box;
+}
 
 .single-card .button {
   display: block;
@@ -10,8 +13,15 @@
 
 @media print {
   @page {
-      size: auto!important
+      size: letter!important;
+      margin: 0;
   }
+
+  body {
+    margin-top: 0.25in;
+    border: none !important;
+  }
+  
 
   * {
       box-shadow: none!important;
@@ -37,8 +47,6 @@
   .cards {
       display: flex!important;
       margin: 0!important;
-      padding-left: 15px!important;
-      padding-top: 15px!important;
       text-align: left!important
   }
 
